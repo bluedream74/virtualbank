@@ -1,0 +1,879 @@
+
+/*****************************************************************************/
+/* top
+/*****************************************************************************/
+
+#menu-list {
+    padding: 10px;
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+    /*border: 4px solid #000;*/
+    box-shadow: 0 20px 20px 0 rgb(48 49 51 / 40%), 0 -10px 20px 0 rgb(48 49 51 / 20%);
+}
+
+#menu-list .menu-item {
+    display: block;
+    box-shadow: 0 10px 10px 0 rgb(48 49 51 / 20%), 0 -10px 20px 0 rgb(48 49 51 / 10%);
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 20px 0;
+    max-height: 120px;
+    background-color: #f5f5f5;
+}
+
+#menu-list .menu-item p{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: bold;
+    line-height: 1.2 !important;
+    font-size: 17px;
+}
+
+/*****************************************************************************/
+/* sms
+/*****************************************************************************/
+
+.attention {
+    color: #eee;
+    margin: 0;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.5 !important;
+}
+
+/*****************************************************************************/
+/* sms
+/*****************************************************************************/
+
+#search_box {
+    width: 310px;
+    margin: 30px auto;
+}
+
+#search_box .from {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+#search_box .date_item {
+    display: inline-block;
+    width: 130px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    color: red;
+    background-color: white;
+    font-size: 12px !important;
+    box-shadow: 0 10px 10px 0 rgb(48 49 51 / 20%), 0 -10px 20px 0 rgb(48 49 51 / 10%);
+    margin-bottom: -14px;
+    padding: 5px;
+}
+
+#search_box .date_item p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0 auto !important;
+}
+
+#search_box input {
+    width: 130px !important;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+#transaction-list {
+    padding: 0 10px;
+    margin-bottom: 0;
+    margin-top: -20px;
+}
+
+#transaction-list .item {
+    display: block;
+    width: 100%;
+    box-shadow: 0 10px 10px 0 rgb(48 49 51 / 20%), 0 -10px 20px 0 rgb(48 49 51 / 10%);
+    background-color: #fff;
+    border-radius: 6px;
+    overflow-wrap: anywhere;
+    height: 120px;
+    max-width: 420px;
+    margin: 0 auto 10px;
+    cursor: pointer;
+    padding-top: 12px;
+}
+
+#transaction-list .item p{
+    font-size: 15px !important;
+    margin-bottom: 0 !important;
+    line-height: 1.7 !important;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+#transaction-list .item img{
+    margin-top: 0;
+}
+
+#transaction-list .item .price {
+    margin-top: 26px;
+    text-align: right;
+}
+
+.transaction_detail {
+    width: 320px;
+    padding: 20px 5px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 0 rgb(48 49 51 / 20%), 0 -10px 20px 0 rgb(48 49 51 / 10%);
+    margin: 30px auto;
+}
+
+.transaction_detail td {
+    border-bottom: 1px dashed #999;
+    text-align: center;
+    padding: 5px 0 !important;
+    font-size: 15px;
+}
+
+.transaction_detail td:first-child {
+    font-weight: bold;
+    border-right: 1px dashed #999;
+}
+
+.transaction_detail tr:last-child td{
+    border-bottom: none !important;
+}
+
+.transaction_detail .status {
+    width: 140px;
+    margin: 0 auto;
+}
+
+#transaction-list td, #transaction-list th {
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.pagination {
+    margin: 0 auto 20px !important;
+}
+
+.success {
+    background-color: #ccffff !important;
+}
+
+.fail {
+    background-color: #ffccff !important;
+}
+
+.border-l-t{
+    border-top-left-radius: 6px;
+}
+
+.border-l-b {
+    border-bottom-left-radius: 6px;
+}
+
+.border-r-t{
+    border-top-right-radius: 6px !important;
+}
+
+.border-r-b {
+    border-bottom-right-radius: 6px !important;
+}
+
+table {
+    border-spacing: 1px !important;
+    border-collapse: separate !important;
+}
+
+/*****************************************************************************/
+/* DatePicker
+/*****************************************************************************/
+
+.input-container input {
+
+    /* Remove First */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    position: relative;
+    border: none;
+    box-sizing: border-box;
+    outline: 0;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background: white  !important;
+
+}
+
+.input-container input[type="date"]::-webkit-calendar-picker-indicator, .input-container input[type="month"]::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+
+.input-container input[type="date"]:before, .input-container input[type="month"]:before {
+    position: relative;
+    width: 100%;
+    content: attr(data-date);
+    color: #000000;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.input-container input::-webkit-datetime-edit, input::-webkit-inner-spin-button, input::-webkit-clear-button {
+     display: none;
+}
+
+.input-container input::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    color: black;
+    opacity: 1;
+}
+
+/*****************************************************************************/
+/* Fee Setting
+/*****************************************************************************/
+
+#fee_setting {
+    padding: 15px;
+    margin: 20px auto 5px;
+    width: 310px;
+}
+
+#fee_setting .item {
+    position: relative;
+    width: 100%;
+    height: 210px;
+    background-color: white;
+    border-radius: 7px;
+    padding: 5px 20px 10px;
+    font-size: 19px;
+}
+
+#fee_setting .item .row {
+    border-bottom: 1px dashed #111;
+    padding: 5px 0;
+}
+
+#fee_setting .item .b-none{
+    border: none !important;
+}
+
+#fee_setting .item .b-right{
+    border-right: 1px dashed #111;
+}
+
+#fee_setting .item:before {
+    position: absolute;
+    top: 21px;
+    left: -22px;
+}
+
+#fee_setting .plus {
+    border-radius: 30px;
+    padding: 10px;
+    background-color: darkorange;
+}
+
+/*
+#fee_setting .item1:before {
+    content: url('../../img/fee_user.png');
+}
+
+#fee_setting .item2:before {
+    content: url('../../img/fee_admin.png');
+}
+
+#fee_setting .item3:before {
+    content: url('../../img/fee_member.png');
+}
+*/
+
+#fee_setting .item .content {
+    width: 100%;
+}
+
+#fee_help p {
+    font-size: 15px;
+    line-height: 1.8 !important;
+    color: white;
+}
+
+#fee_edit table {
+    width: 310px;
+    margin: 15px auto 15px;
+    border: 1px solid #ccc;
+    border-bottom: none !important;
+    border-spacing: 0 !important;
+    overflow-wrap: anywhere;
+}
+
+#fee_edit table td{
+    border-bottom: 1px solid #ccc !important;
+    color: #111;
+    font-size: 17px;
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+#fee_edit table td select{
+    width: 50px !important;
+    height: 42px !important;
+    text-align: center;
+}
+
+.dot {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#fee_buttons {
+    width: 320px;
+    margin: 0 auto;
+}
+
+/*****************************************************************************/
+/*
+/*****************************************************************************/
+
+#shopname, #phonenum {
+    width: 320px;
+    border: 1px solid #000000;
+    background-color: white;
+    padding: 10px;
+    margin: 0 auto 5px;
+    border-radius: 5px;
+    font-size: 23px;
+}
+
+#shopname p, #phonenum p {
+    margin-top: 4px;
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 1.5 !important;
+}
+
+#shopname input, #phonenum input, #card-info input {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    font-size: 23px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#shopname .title, #phonenum .title, #card-info .title {
+    text-align: center;
+    margin-bottom: 0 !important;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#shopname .name {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+    padding-bottom: 2px;
+    margin-top: 5px;
+}
+
+#shopname .amount {
+    margin: 15px auto 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#shopname .help, #phonenum .help {
+    font-size: 17px;
+    color: #888;
+    padding-bottom: 10px;
+}
+
+#card-list {
+    width: 320px;
+    height: 100px;
+    padding: 5px 0;
+    margin: 0 auto 10px;
+}
+
+#card-list .card-title {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#card-list ul {
+    list-style: none;
+    padding: 0 !important;
+    width: 310px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#card-list ul li {
+    float: left;
+}
+
+#card-info {
+    width: 320px;
+    padding: 5px 10px;
+    margin: 0 auto 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#card-info select {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    text-align-last:center;
+    border-color: #777;
+}
+
+#card-info  .title {
+    padding-top: 10px;
+}
+
+#card-info .title:first-child {
+    border: none !important;
+}
+
+#card-info .card-type {
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#card-info .card-pos {
+    font-size: 12px;
+    margin-bottom: 0;
+    line-height: 15px !important;
+}
+
+#links {
+    width: 310px;
+    padding: 5px 10px;
+    margin: 30px auto 20px;
+}
+
+#links a.page-link {
+    display: block;
+    font-size: 18px;
+    color: white;
+    text-decoration: underline !important;
+    margin-top: 5px;
+}
+
+#links #label-agree {
+    font-size: 17px;
+    color: #ddd;
+    font-weight: normal;
+    padding-top: 7px;
+}
+
+.confirm-container input{
+    border: none !important;
+}
+
+.confirm-container input:focus {
+    outline-color : white !important;
+}
+
+.confirm-container #card-info .title {
+    margin-top: 0px;
+}
+
+.success-title, .fail-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #b8e7ff;
+    text-align: center;
+    margin-bottom: 0 !important;
+    margin-top: 20px;
+}
+
+.success-help {
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+}
+
+.fail-title {
+    color: red;
+}
+
+#invoice-company {
+    width: 280px;
+    padding: 5px 10px;
+    margin: 0 auto 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#transaction-info {
+    width: 280px;
+    padding: 5px 10px;
+    margin: 0 auto 20px;
+}
+
+#transaction-info p{
+    margin-bottom: 0;
+    color: white;
+}
+
+#invoice-company .title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 0;
+    color: #777;
+}
+
+#invoice-company .help {
+    font-size: 18px;
+    border-top: 1px dashed #ccc;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.comment {
+    color: red;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 10px 15px;
+    line-height: 1.5 !important;
+}
+
+.comment_token {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+.pay_comment {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    line-height: 1.8 !important;
+    text-align: center;
+    color: white;
+}
+
+/*****************************************************************************/
+/* Privacy Policy
+/*****************************************************************************/
+
+.help-body {
+    width: 900px;
+    max-width: 100%;
+    margin: 50px auto 20px;
+    padding: 10px;
+}
+
+.help-body p {
+    font-size: 17px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.help-body .header {
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.help-body li {
+    color: white;
+    font-size: 24px;
+}
+
+.help-body ul.sub-item li {
+    font-size: 16px;
+}
+
+.help-body ul.sub-item li  p {
+    margin-bottom: 0 !important;
+}
+
+/*****************************************************************************/
+/* Password
+/*****************************************************************************/
+
+.password_body {
+    width: 290px;
+    height: 60px;
+    padding-left: 10px;
+    margin: 10px auto;
+}
+
+.password_body input{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.password_body #wrong_password {
+    color: red;
+    text-align: center;
+}
+
+/*****************************************************************************/
+/* Invoice
+/*****************************************************************************/
+
+#select_month {
+    width: 300px;
+    border: 1px solid #999977;
+    text-align: center;
+    background-color: white;
+    margin: 20px auto;
+}
+
+#select_month p {
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#select_month input {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 10px;
+    border: none;
+    outline-style: none;
+    text-align: center !important;
+    background-color: #efefef !important;
+    cursor: pointer;
+    color: #efefef !important;
+}
+
+#invoice_box table{
+    width: 600px;
+    max-width: 100%;
+    border: 1px solid #aaa;
+    margin: 10px auto 30px;
+    background-color: white;
+}
+
+#invoice_box table td{
+    text-align: center;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+#invoice_box table td a {
+    text-decoration: underline !important;
+}
+
+#invoice_box table th{
+    text-align: center;
+    border: 1px solid #ccc;
+    font-weight: bold;
+}
+
+.invoice_detail_container {
+    width: 700px;
+    max-width: 100%;
+    margin: 10px auto 30px;
+}
+
+#invoice {
+    border: 2px solid #222;
+    width: 700px;
+    max-width: 100%;
+    padding: 10px;
+    margin: 10px auto 30px;
+    min-height: 900px;
+    background-color: white;
+}
+
+#invoice .header-title {
+    color: #000000;
+    margin-top: 20px;
+}
+
+.invoice_topInfo, .invoice_companyInfo {
+    width: 48%;
+    margin: 30px 2% 10px 0;
+    border: 1px solid #222;
+    min-height: 100px;
+    padding: 0 !important;
+}
+
+.invoice_topInfo input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #222;
+    text-align: center;
+    outline-style: none;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.invoice_topInfo table td:first-child {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.invoice_topInfo table td:nth-child(2) {
+    text-align: left;
+    border-bottom: 1px solid #222;
+}
+
+.invoice_topInfo table tr:last-child td {
+    border-bottom: none !important;
+}
+
+.invoice_companyInfo {
+    margin-top: 78px;
+}
+
+.invoice_companyInfo p {
+    margin-bottom: 0 !important;
+    font-size: 12px;
+    padding: 0 2px;
+    line-height: 20px !important;
+    color: #555;
+}
+
+#invoice_date table {
+    width: 100%;
+    margin: 0 0 20px;
+}
+
+#invoice_date table td{
+    border: 1px solid #555;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 0;
+    border-bottom: none;
+}
+
+#invoice_date table td:nth-child(2){
+    border-left: none;
+}
+
+#invoice_date table tr:last-child td{
+    border-bottom: 1px solid #555 !important;
+}
+
+#invoice_content .txt-info {
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+#invoice_content td {
+    border: 1px solid #222;
+    text-align: center;
+    border-right: none;
+    border-bottom: none;
+    font-size: 15px;
+    padding: 2px;
+}
+
+#invoice_content td:last-child {
+    border-right: 1px solid #222;
+}
+
+#invoice_content tr:last-child td {
+    border-bottom: 1px solid #222;
+}
+
+@media print {
+    body {-webkit-print-color-adjust: exact;}
+}
+
+/*****************************************************************************/
+/* Responsive
+/*****************************************************************************/
+
+@media (max-width: 767px){
+
+    #transaction-list .item {
+        height: 110px;
+    }
+
+    #transaction-list .item p{
+        font-size: 13px !important;
+    }
+
+    .help-body .header{
+        margin-bottom: 10px;
+    }
+
+    .help-body .mt-xlg {
+        margin-top: 25px !important;
+    }
+
+    #invoice_box table{
+        width: 100% !important;
+    }
+
+    .input-container input[type="month"]:before {
+        margin-left: 70px;
+        font-size: 19px;
+    }
+
+    .input-container input[type="month"] {
+        font-size: 0;
+    }
+
+    .logo-link img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .invoice_topInfo, .invoice_companyInfo {
+        width: 100%;
+        margin-top: 10px !important;
+        margin-bottom: 0;
+    }
+
+    .invoice_companyInfo {
+        margin-bottom: 30px;
+    }
+}

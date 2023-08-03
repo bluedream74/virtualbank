@@ -1,0 +1,275 @@
+
+body {
+    /* background-color: white; */
+}
+
+#goto_top {
+    display: none;
+}
+
+.inner {
+    padding: 10px 20px 40px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.inner h2 {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5 !important;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.inner .flow-table {
+    width: 100%;
+    border-collapse: collapse !important;
+    margin-bottom: 30px;
+    background-color: #e2f0d9;
+}
+
+.inner .flow-table tr {
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+.inner .flow-table tr:last-child {
+    border-bottom: 1px solid black;
+}
+
+.inner .flow-table td {
+    color: black !important;
+    font-size: 15px !important;
+    padding: 10px;
+    line-height: 1.2 !important;
+}
+
+.inner .flow-table td strong {
+    font-size: 20px !important;
+    line-height: 1.3 !important;
+}
+
+.inner .flow-table td:first-child {
+    border-right: 1px solid black;
+}
+
+.logo-link img {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+footer {
+    border-top: none;
+}
+
+h3.comment {
+    font-size: 24px;
+}
+
+.btn-next {
+    width: 170px !important; 
+    min-width:170px !important; 
+    border-radius: 13px;
+    padding: 20px 40px;
+    margin-bottom: 0 !important;
+}
+
+.inner .flow-table td p {
+    line-height: 1.5 !important;
+}
+
+.inner .flow-table td input[type="radio"]{
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FF */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+    transform: scale(1.5);
+    padding: 10px;
+}
+
+.inner .flow-table td p.card {
+    font-size: 13px !important;
+    padding-left: 0 !important;
+    padding-top: 6px;
+}
+
+.inner .flow-table td p.card strong  {
+    font-size: 16px !important;
+}
+
+.inner .flow-table td.detail {
+    line-height: 1.5 !important;    
+}
+
+.inner .flow-table td.detail strong{
+    font-size: 22px !important;
+}
+
+#paymentForm #inputContainer {
+    background-color: #e2f0d9;
+    border: 2px solid orange;
+    padding: 0;
+    max-width: 350px;
+    margin: 20px auto 50px;
+}
+
+#paymentForm p.large {
+    font-size: 18px !important;
+    line-height: 1.5 !important;
+}
+
+#paymentForm p.medium {
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+}
+
+#paymentForm p.small {
+    font-size: 13px !important;
+    line-height: 1.5 !important;
+}
+
+p.command {
+    color: red;
+    font-size: 17px !important;
+    font-weight: bold;
+    line-height: 1.4 !important;
+}
+
+#paymentForm #phoneContainer {
+    width: 320px;
+    background-color: #e2f0d9;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+#paymentForm #phoneContainer p.large {
+    font-size: 22px !important;
+}
+
+#paymentForm #textContainer {
+    padding: 10px 20px;
+}
+
+#paymentForm #textContainer p.command {
+    font-size: 18px !important;
+    text-align: center;
+}
+
+#confirm-container {
+    width: 330px;
+    margin: 20px auto 50px;
+}
+
+#confirm-container h2 {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5 !important;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#confirm-container #inner .detail{
+    background-color: #e2f0d9;
+    border: 2px solid orange;
+    padding: 10px;
+}
+
+#confirm-container #inner .detail p {
+    line-height: 1.2 !important;
+}
+
+#confirm-container #inner .detail p.small {
+    font-size: 15px !important;
+}
+
+#confirm-container #inner #shopname, #phonenum {
+    width: 100%;
+    padding: 0 10px;
+}
+
+#confirm-container #inner p.hint {
+    color: #7f7f7f;
+}
+
+#resultContainer {
+    width: 350px;
+    margin: 0 auto;
+}
+
+#resultContainer .flow-table td strong {
+    font-size: 20px !important;
+}
+
+.text-thanks {
+    color: white;
+    text-align: center;
+}
+
+#check-next-container {
+    margin-top: -20px !important;
+    margin-bottom: 80px;
+}
+
+#check-next-container input[type=checkbox] {
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FF */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+    transform: scale(1.5);
+    padding: 10px;
+}
+
+label.check-next {
+    color: white !important;
+    font-weight: normal !important;
+    line-height: 1.5 !important;
+    padding: 25px 0 0 5px;
+}
+
+#resultContainer .success-title, #resultContainer .success-help {
+    color: #0c4664 !important;
+}
+
+#resultContainer .fail-title, #resultContainer .fail-help {
+    color: red !important;
+}
+
+.btn-default[disabled]:hover {
+    background-color: #eb6100;
+}
+
+#atobaraiDialog .modal-content {
+    background-color: #e2f0d9;
+}
+
+#atobaraiDialog span {
+    font-size: 18px !important;
+}
+
+#atobaraiDialog strong {
+    font-size: 22px !important;
+    line-height: 1.4 !important;
+}
+
+#atobaraiDialog a.phone {
+    text-decoration: underline !important;
+    color: black;
+}
+
+#atobaraiDialog i {
+    font-size: 35px;
+    color: black;
+}
+
+#atobaraiDialog button.close {
+    opacity: 1;
+    font-weight: normal;
+}
+
+#atobaraiDialog .modal-content {
+    margin-top: 235px;
+}

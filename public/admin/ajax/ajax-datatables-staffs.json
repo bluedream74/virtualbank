@@ -1,0 +1,8 @@
+{
+  "aaData": [
+    ["Staff 1","staff1@gmail.com","0701234567","Address 1","Enable", "1"],
+    ["Staff 2","staff2@gmail.com","0701234567","Address 2","Disable", "2"],
+    ["Staff 3","staff3@gmail.com","0701234567","Address 3","Enable", "3"],
+    ["Staff 4","staff4@gmail.com","0701234567","Address 4","Enable", "4"]
+  ]
+}

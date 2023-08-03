@@ -1,0 +1,128 @@
+
+
+/**********************************************************************************************************************/
+
+#search_box {
+    float: right;
+    margin-top: 7px;
+    margin-right: 50px;
+}
+
+#search_box label {
+    float: left;
+    font-size: 18px;
+    margin-right: 15px;
+    padding-top: 6px;
+    color: white;
+}
+
+#search_box input {
+    float: left;
+    width: 170px !important;
+    margin-right: 15px;
+}
+
+#search_box button, #search_box a.btn {
+    padding: 5px 10px;
+    min-width: 100px;
+    font-size: 18px !important;
+}
+
+div.dataTables_length select {
+    width: 90px;
+}
+
+table td.successed, table th.successed  {
+    background-color: #ccffff !important;
+    color: #000000;
+    font-weight: bold;
+}
+
+table td.fail, table th.fail {
+    background-color: #ffccff !important;
+    color: #000000;
+    font-weight: bold;
+}
+
+table .green {
+    background-color: #ccffcc !important;
+}
+
+table .yellow {
+    background-color: #ffffcc !important;
+}
+
+table .blue {
+    background-color: #ccffff !important;
+}
+
+table .pink {
+    background-color: #ffccff !important;
+}
+
+table .darkorange {
+    background-color: #ffd966 !important;
+}
+
+#report {
+    width: 100%;
+    overflow-x: auto;
+}
+
+#report table {
+    white-space: nowrap;
+}
+
+#invoiceCSV_datatable th {
+    padding-right: 8px !important;
+    color: red !important;
+    font-weight: bold !important;
+}
+
+#invoiceCSV_datatable td:first-child, #invoiceCSV_datatable td.red {
+    color: red !important;
+    font-weight: bold !important;
+}
+
+/**********************************************************************************************************************/
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border-color: #777 !important;
+}
+
+.table-bordered {
+    display: table !important;
+    white-space: nowrap;
+}
+
+/**********************************************************************************************************************/
+
+.btn-default {
+    position: relative;
+    background: black;
+    color: white !important;
+    font-size: 24px !important;
+    font-weight: bold;
+    padding: 20px 60px;
+    border-radius: 40px;
+    max-width: 100%;
+    min-width: 250px;
+}
+
+.btn-gold, .btn-gold:hover{
+    background: #ff6c03;
+    color: white !important;
+    border: none !important;
+}
+
+.btn-default:hover {
+    /*color: black !important;*/
+    text-decoration: none !important;
+    /*background: white !important;*/
+}
+
+.btn-green, .btn-green:hover {
+    background: #00BEA6;
+    color: white !important;
+    border: none !important;
+}

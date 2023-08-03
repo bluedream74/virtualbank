@@ -1,0 +1,14 @@
+
+.table {
+    margin-top: 30px;
+}
+
+.table  th, .table  td{
+    vertical-align: middle;
+    border: 1px solid #ccc !important;
+    font-size: 14px;
+}
+
+.table  th, .table  td {
+    text-align: center;
+}

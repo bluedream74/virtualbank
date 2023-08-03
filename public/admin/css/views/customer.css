@@ -1,0 +1,48 @@
+.address-section{
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+.address-sub-section{
+    float: left;
+    position: relative;
+    width: 48.5%;
+}
+
+.table > thead > tr > th {
+    color: black !important;
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle !important;
+}
+
+.table > tbody > tr > td > a {
+    color: white !important;
+}
+
+.table-actions .btn-action {
+    margin: 10px;
+    float: right;
+}
+
+.table-actions h4 {
+    color: #000000;
+}
+
+.actions .btn {
+    width: 24px;
+    height: 24px;
+    padding: 0px;
+    margin-bottom: 6px !important;
+}
+
+.modal-booking {
+    background: transparent;
+    padding: 0;
+    text-align: left;
+    max-width: 1000px;
+    margin: 40px auto;
+    position: relative;
+}

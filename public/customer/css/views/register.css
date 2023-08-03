@@ -1,0 +1,52 @@
+
+.input-form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    border: 2px solid #888888;
+    margin-left: -15px;
+    background-size: 80px 80px;
+}
+
+.folder, .camera {
+    text-decoration: underline !important;
+    margin-right: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.folder:after {
+    padding-top: 3px;
+    margin-left: 15px;
+    content: url('../../img/folder.svg');
+}
+
+.camera:after {
+    padding-top: 3px;
+    margin-left: 20px;
+    content: url('../../img/camera.svg');
+}
+
+@media (max-width: 767px) {
+    .input-form {
+        max-width: 100% !important;
+        padding: 20px;
+    }
+
+    #btnSubmit {
+        padding: 15px 120px !important;
+    }
+
+    #signForm {
+        padding: 20px !important;
+    }
+
+    .full-bg {
+        padding-bottom: 80px !important;
+    }
+}
